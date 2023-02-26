@@ -1,0 +1,180 @@
+
+* {
+
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+
+}
+
+
+ body {
+  
+    min-height: 100vh;;   
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color:hsl(30, 38%, 92%);
+    gap:20px;
+    background:hsl(216, 12%, 8%)
+
+   }
+
+
+   button {
+
+     margin-top:2.3em;
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+     width:94%;
+     height:3.5em;
+     border-radius:25px;
+     background:hsl(25, 97%, 53%);
+     border:none;
+     color:white;
+     letter-spacing:1px;
+     font-family:"Overpass";
+     font-size:1rem;
+      
+
+   }
+
+ 
+
+   button:hover {
+
+     background:#EDEDED;
+     color:hsl(25, 97%, 53%);
+
+   }
+
+
+   h1 {
+
+    color:white;
+    font-size:2rem;
+
+   }
+
+   form {
+    
+    display:flex;
+    gap:25px
+  
+  }
+
+  input {
+
+    display:none;
+
+  }
+
+
+   .rating-app{
+ 
+    background:hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    font-size:0.9rem;
+    padding:2em;
+    max-height:450px;
+    max-width:450px;
+    border-radius:25px;
+    font-family:"Overpass";
+
+   
+   }
+
+   .rating-section {
+
+     display:flex;
+     gap:25px;
+     justify-content: center;
+     margin-top:2em;
+
+
+   }
+
+
+    .rate-value  {
+      padding-top:15px;
+      text-align:center;
+      display:inline-block;
+
+  }
+
+   .rate-value,.img-container-default {
+
+      width: 50px;
+      height:50px;
+      border-radius:100%;
+      background: hsl(216, 12%, 54%);
+      border:1px solid #333638;
+      background:#2B333E;
+      font-size:18px;
+
+   }
+
+   .rate-value:hover {
+    
+    background:#EDEDED;
+
+
+   }
+
+   .rate-value:focus {
+
+      background-color:hsl(25, 97%, 53%);
+      color:white;
+
+   }
+
+   .star {
+
+     display:block;
+     margin: 0 auto;
+     margin-top:30%;
+
+   }
+
+  
+
+   .app-description {
+
+
+     margin-top:2em;
+     line-height:1.7;
+     margin-right:3em;
+
+   }
+  
+   .thank-you-img   {
+
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+
+   }
+
+
+   .rate-value-container {
+
+     display:none;
+     width:45%;
+     margin-left:auto;
+     margin-right:auto;
+     height:2em;
+     text-align:center;
+     padding:0.5em;
+     border-radius:25px;
+     background:#2B333E;
+     color:hsl(25, 97%, 53%);
+     margin-top:2em;
+     margin-bottom:0.5em;
+
+
+   }
+
+  
